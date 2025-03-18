@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css task 6</title>
+</head>
+<style>
+    body{
+        justify-items: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(254, 254, 254);
+        padding: 20px 100px;
+    }
+    .container img{
+        border: 2px solid gray;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .container label{
+        font-weight: bold;
+        font-size: large;
+        padding: 10px 2px;
+    }
+    .container input{
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: 2px solid grey;
+    }
+    .ln{
+        margin-top: 15px;
+        background-color: green;
+        color: white;
+        transition: background-color, 450ms;
+    }
+    .ln:hover{
+        background-color: blue ;
+    }
+    .check{
+        text-align: right;
+    }
+    .down{
+        margin-top: 5px;
+        display: flex;
+        
+    }
+    .down button{
+        background-color: red;
+        color: white;
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+        border: 2px solid orangered;
+        font-size: medium;
+        transition: background-color, 8ms;
+    }
+    .down button:hover{
+        background-color: orange;
+        border: 3px solid white;
+    }
+    .down p{
+        padding-left: 84px;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/5f/40/6a/5f406ab25e8942cbe0da6485afd26b71.jpg"  alt="">
+
+        <label for="">Username</label>
+        <input type="text" placeholder="Enter Username">
+        <label for="">Password</label>
+        <input type="password" name="" id="" placeholder="Enter Password">
+        <input type="submit" value=" Login" class="ln">
+        <p>
+            <input type="checkbox" name="" id="" class="check">Remember me
+        </p>
+    </div>
+    <div class="down">
+        <button type="submit">Cancel</button>
+        <p><a href="">Forget password?</a></p>
+    </div>
+</body>
+</html>
