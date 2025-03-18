@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css task 4</title>
+</head>
+<style>
+   h1, h2{
+    text-align: center;
+   }
+    .container{
+        padding: 5px 10px;
+    }
+    .btn1{
+        width: 5em;
+        height: 5em;
+        background-color: green;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: width 2s;
+    }
+    .btn2{
+        width: 5em;
+        height: 5em;
+        background-color: rgb(45, 210, 232);
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: width 2s;
+    }
+    .btn3{
+        width: 5em;
+        height: 5em;
+        background-color: rgb(230, 42, 21);
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: width 2s;
+    }
+    .btn4{
+        width: 5em;
+        height: 5em;
+        background-color: rgb(149, 149, 149);
+        border-radius: 5px;
+        transition: width 2s;
+        
+    }
+    .btn1:hover{
+        width: 50em;
+        cursor: pointer;
+    }
+    .btn2:hover{
+        width: 50em;
+        cursor: pointer;
+    }
+    .btn3:hover{
+        width: 50em;
+        cursor: pointer;
+    }
+    .btn4:hover{
+        width: 50em;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+    <h2>Hoverable Sidenav Button</h2>
+    <div class="container">
+        <div class="btn1"></div>
+        <div class="btn2"></div>
+        <div class="btn3"></div>
+        <div class="btn4"></div>
+    </div>
+</body>
+</html>
