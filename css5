@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css task 5</title>
+</head>
+<style>
+    body{
+        background-color: rgb(215, 221, 46);
+
+    }
+    h1{
+        text-align: center;
+        color: white;
+
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .left{
+        width: 20%;
+        padding: 1em 5em;
+
+    }
+    
+    .l{
+        background-color: rgb(0, 0, 0);
+        margin-top: 17px;
+        width: 10px;
+        height: 50px;
+
+    }
+    .l1{
+        display: inline-block;
+        display: flex;
+        margin-top: 15px;
+        
+        
+    }
+    .btn1,.btn2{
+        width: 15em;
+        height: 50px;
+        background-color: rgb(255, 255, 254);
+        text-align: center;
+    }
+    .btn1 a{
+       font-size: xx-large;
+       font-weight: bold;
+        color: rgb(22, 32, 167);
+        text-decoration: none;
+        background-color: rgb(255, 255, 254);
+        padding: 0px 20px;
+        
+        
+    }
+    .btn2 a{
+        font-size: xx-large;
+       font-weight: bold;
+        color: purple;
+        text-decoration: none;
+        background-color: rgb(255, 255, 254);
+        padding: 0px 20px;
+    }
+    .right{
+        color: purple;
+    }
+    .head{
+        text-align: left;
+        color: purple;
+        font-size: xxx-large;
+    }
+    h2, h3{
+        font-size: xx-large;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="l1">
+                <p class="btn2"><a href="">Home page</a> <p class="l"></p></p>
+            </div>
+            <div class="l1">
+                <p class="btn1"><a href="">Musing</a> <p class="l"></p></p>
+            </div>
+            <div class="l1">
+                <p class="btn1"><a href="">My town</a> <p class="l"></p></p>
+            </div>
+            <div class="l1">
+                <p class="btn1"><a href="">Links</a> <p class="l"></p></p>
+            </div>
+            
+        </div>
+        <div class="right">
+            <h1 class="head">My first styled page</h1>
+            <h3>Welcome to my styled page!</h3>
+            <h3>It lacks images, but at least it has style.
+                And it has links, even if they don't go anywhere....
+            </h3>
+            <h3>
+                There should be more here , But i don't know what yet.
+            </h3>
+            <hr>
+            <h2>Made 16 February 2025</h2>
+            <h2>by myself.</h2>
+        </div>
+    </div>
+</body>
+</html>
