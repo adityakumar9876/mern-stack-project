@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> aditya Kumar  html task 2</title>
+</head>
+<style>
+    body{
+        justify-items: center;
+    }
+    .border {
+            border: 2px solid black;
+            padding: 15px;
+            background-color: white;
+    }
+</style>
+<body>
+   <div class="border">
+    <h2>Lists can be nested(list inside list)</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+</div>
+</body>
+</html>
