@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css task 7</title>
+</head>
+<style>
+    body{
+        background-color: rgb(195, 0, 91);
+        justify-items: center;
+    }
+    h1, h2{
+        color: white;
+    }
+    .container{
+        background-color: rgb(112, 26, 65);
+        padding: 50px 50px;
+        border-radius: 10px;
+        border: 2px solid white;
+        max-width: 60%;
+    }
+    
+    
+    form{
+        align-items: center;
+        color: white;
+        
+    }
+    
+    td{
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+    td input{
+        width: 100%;
+        height: 25px;
+        border-radius: 4px;
+    }
+    td label{
+        font-size: medium;
+    }
+    table{
+        width: 100%;
+        
+    }
+    .gen{
+        display: flex;
+    }
+    select{
+        width: 50%;
+        height: 25px;
+    }
+    textarea{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        margin-top: 10px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(232, 235, 236);
+        transition: background-color, 250ms;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-image: linear-gradient(90deg,rgb(0, 255, 183),rgb(0, 242, 255),rgb(0, 200, 255),rgb(0, 132, 255));
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="data">
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td> <label for="">Name</label></td>
+                        <td><input type="text" name="" id="" placeholder="Your Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email</label></td>
+                        <td><input type="email" name="" id="" placeholder="Your Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password</label></td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">PhoneNumber</label></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Gender</label></td>
+                        <td class="gen"><input type="radio" name="" id="">Male <input type="radio" name="" id="">Female <input type="radio" name="" id="">Other..</td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Language</label></td>
+                        <td><select>
+                            <option value="">Hindi</option>
+                            <option value="">English</option>
+                            <option value="">Marathi</option>
+                            <option value="">Telgu</option>
+                            <option value="">Farshi</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">ZIP Code</label></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">About</label></td>
+                        <td><textarea name="" id="" placeholder="Write about yourself"></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Register" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
