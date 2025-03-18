@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> task 1</title>
+</head>
+<style>
+    body{
+        justify-items: center;
+    }
+    table{
+        background-color: rgb(112, 225, 188);
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 18px;
+    }
+    td, th{
+        border: 1px solid black;
+        border-radius: 18px;
+        padding: 5px 50px;
+    }
+    .shaps{
+        margin-top: 5em;
+        width: 50%;
+        
+        
+    }
+    .up, .mid, .end{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+    }
+    .rectangle1{
+        border: 8px solid greenyellow;
+        border-radius: 10px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle2{
+        border: 8px solid greenyellow;
+        border-radius: 25px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle3{
+        border: 8px solid greenyellow;
+        border-radius: 45px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle4{
+        border: 8px solid greenyellow;
+        border-radius: 55px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle5{
+        border: 8px solid greenyellow;
+        border-radius: 18px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle6{
+        border: 8px solid greenyellow;
+        border-radius: 48px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle7{
+        border: 8px solid greenyellow;
+        border-radius: 50%;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle8{
+        border: 8px solid greenyellow;
+        border-radius: 8px;
+        height: 4em;
+        width: 5em;
+    }
+    .rectangle9{
+        border: 8px solid greenyellow;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        height: 4em;
+        width: 5em;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr><td>jill</td>
+        <td>Smith</td>
+        <td>50</td></tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    
+    <div class="shaps">
+        <div class="up">
+        <div class="rectangle1"></div>
+        <div class="rectangle2"></div>
+        <div class="rectangle3"></div>
+        </div>
+        <div class="mid">
+        <div class="rectangle4"></div>
+        <div class="rectangle5"></div>
+        <div class="rectangle6"></div>
+        </div>
+        <div class="end">
+        <div class="rectangle7"></div>
+        <div class="rectangle8"></div>
+        <div class="rectangle9"></div>
+        </div>
+    </div>
+</body>
+</html>
