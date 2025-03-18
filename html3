@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aditya html task 3</title>
+</head>
+<style>
+.border{
+    border: 2px solid black;
+            padding: 10px;
+            background-color: white;
+}
+</style>
+<body>
+    <div class="border">
+    <h2>Click any of the following link</h2>
+   
+        <a href="##">Open in New </a><span>|</span>
+        <a href="##">Open in Self </a><span>|</span>
+        <a href="##">Open in Parent </a><span>|</span>
+        <a href="##">Open in Body </a><span>|</span>
+        <a href="##">Send email </a>
+    </div>
+</body>
+</html>
