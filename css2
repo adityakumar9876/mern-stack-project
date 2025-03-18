@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css task 2</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .vertical {
+            width: 200px;
+            background-color: rgb(117, 192, 227);
+            border: 4px solid rgb(204, 204, 223);
+            padding: 0;
+        }
+        .vertical ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .vertical ul li {
+            text-align: center;
+            padding: 10px;
+            border-bottom: 2px solid gainsboro;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .vertical ul li:first-child {
+            background-color: orange;
+            color: white;
+        }
+        .vertical ul li:not(:first-child) {
+            color: blue;
+        }
+        .vertical ul li:hover {
+            background-color: orange;
+            color: white;
+        }
+        .horizontal {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            border: 2px solid black;
+            margin-top: 20px;
+            background-color: lightgray;
+        }
+        .horizontal ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .horizontal ul li {
+            padding: 10px 15px;
+            border-right: 1px solid black;
+            color: blue;
+            cursor: pointer;
+        }
+        .horizontal ul li:first-child {
+            background-color: gray;
+            color: white;
+        }
+        .horizontal ul li:last-child {
+            border-right: none;
+        }
+        /* Hover Effect for Horizontal Navbar */
+        .horizontal ul li:hover {
+            background-color: darkgray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><b>Vertical Navigation Bar</b></h2>
+        <div class="vertical">
+            <ul>
+                <li>Home</li>
+                <li>Java</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+        <h2><b>Horizontal Navigation Bar</b></h2>
+        <div class="horizontal">
+            <ul>
+                <li>Home</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
